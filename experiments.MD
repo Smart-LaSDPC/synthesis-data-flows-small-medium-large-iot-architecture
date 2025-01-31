@@ -19,7 +19,7 @@ Requests are performed at a rate of 4 requests per second per VM. The total test
 $$ T(s) = \frac{R}{4 \times V} $$
 
 
-\[ T (s) = \frac{R}{4 \times V} \]
+
 
 where:
 - \( R \) is the total number of requests
@@ -39,7 +39,7 @@ The second experiment evaluates how the prototype responds to a workload generat
 
 | Scenario | Requests per VM | Total Requests |
 |----------|---------------|---------------|
-| 1        | 3             | \( \sum_{x=0}^{3} 2^x \) = 150 |
+| 1        | 3             | $$ \( \sum_{x=0}^{3} 2^x \) = 150 $$ |
 | 2        | 5             | \( \sum_{x=0}^{5} 2^x \) = 630 |
 | 3        | 7             | \( \sum_{x=0}^{7} 2^x \) = 2,550 |
 | 4        | 9             | \( \sum_{x=0}^{9} 2^x \) = 10,230 |
