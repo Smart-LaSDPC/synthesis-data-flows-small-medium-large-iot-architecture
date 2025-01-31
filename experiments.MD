@@ -16,6 +16,9 @@ The objective of this experiment is to measure the behavior of the prototype und
 
 Requests are performed at a rate of 4 requests per second per VM. The total test execution time \( T(s) \) is defined by the following equation:
 
+$$ T(s) = \frac{R}{4 \times V} $$
+
+
 \[ T (s) = \frac{R}{4 \times V} \]
 
 where:
